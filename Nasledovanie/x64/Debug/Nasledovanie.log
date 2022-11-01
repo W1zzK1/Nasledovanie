@@ -1,0 +1,5 @@
+﻿  Nasledovanie.cpp
+  Real.cpp
+  Создание кода...
+C:\Users\W1zzA\source\repos\Nasledovanie\Nasledovanie\Real.h(23): warning C4715: Real::getLn: значение возвращается не при всех путях выполнения
+  Nasledovanie.vcxproj -> C:\Users\W1zzA\source\repos\Nasledovanie\x64\Debug\Nasledovanie.exe
