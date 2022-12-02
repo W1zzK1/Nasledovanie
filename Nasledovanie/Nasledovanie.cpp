@@ -1,23 +1,16 @@
+#include <iostream>
 #include "Number.h"
+#include "Real.h"
+using namespace std;
 
-class Number
+int main()
 {
-protected:
-	float firstValue;
-	float secondValue;
+    setlocale(LC_ALL, "Russian");
+    float Real a = 4;
 
-public:
-	Number(float first, float second) {
-		firstValue = first;
-		secondValue = second;
-	}
-	Number(float first) {
-		firstValue = first;
-	}
-	float Additional() {
-		return firstValue + secondValue;
-	}
-	float Division() {
-		return firstValue / secondValue;
-	}
-};
+    float Number n;
+
+     float Real z = -2;
+     
+    return 0;
+}
