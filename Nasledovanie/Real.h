@@ -1,5 +1,6 @@
 #pragma once
 #include "Number.h"
+#include "Real.cpp"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -7,23 +8,9 @@
 #include <stdlib.h>
 #include <cmath>
 using namespace std;
+;
+float Real a(4)
+cout << a.getLn();
 
-class Real:public Number
-{public:
-	Real(float firstValue) :Number(firstValue) {};
-	float getLn()
-	{
-		if (firstValue < 0) {
-			cout << "Не попал";
-		}
-		else {
-			return log(firstValue);
-		}
-		
-	};
-	float degree(float power)
-	{
-		return pow(firstValue, power);
-	};
-};
-
+float Real z(-2);
+cout << z.getLn();
